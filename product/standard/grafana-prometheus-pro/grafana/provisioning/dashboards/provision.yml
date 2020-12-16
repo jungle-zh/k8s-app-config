@@ -36,3 +36,10 @@ providers:
    type: file
    options:
      path: /var/lib/grafana/k8s-app-config/product/standard/grafana-prometheus-pro/grafana/provisioning/dashboards/mq-rocketmq
+ - name: 'dbscale'
+   orgId: 1
+   folder: 'dbscale'
+   folderUid: ''
+   type: file
+   options:
+     path: /var/lib/grafana/k8s-app-config/product/standard/grafana-prometheus-pro/grafana/provisioning/dashboards/dbscale
